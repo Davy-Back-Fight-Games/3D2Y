@@ -2,6 +2,7 @@
 title: "First Campfire"
 slug: "first-campfire"
 difficulty: "beginner"
+godot_version: "4.7"
 skills:
   - Godot editor
   - scenes

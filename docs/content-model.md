@@ -20,6 +20,7 @@ islands/<slug>/teach/*.html
 title: "Rubber Band Movement"
 slug: "rubber-band-movement"
 difficulty: "beginner"
+godot_version: "4.7"
 skills:
   - player input
   - movement
@@ -32,6 +33,7 @@ requires: []
 - `title`: The human-readable island name.
 - `slug`: The stable ID used for folders, URLs, and references.
 - `difficulty`: One of `beginner`, `intermediate`, or `advanced`.
+- `godot_version`: The exact Godot version the island targets.
 - `skills`: A short list of practical things the island teaches.
 - `requires`: Island slugs that should be completed first.
 
@@ -67,3 +69,5 @@ Recommended names:
 - `<concept>.html`: A focused lesson or reference.
 
 Teaching files should be self-contained HTML so they can be opened directly in a browser and later rendered by a platform.
+
+Teaching files should link to relevant high-quality sources, especially official Godot documentation for the island's `godot_version`.

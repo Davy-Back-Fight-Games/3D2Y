@@ -2,6 +2,7 @@
 title: ""
 slug: ""
 difficulty: "beginner"
+godot_version: "4.7"
 skills: []
 requires: []
 ---

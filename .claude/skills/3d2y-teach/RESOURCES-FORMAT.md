@@ -2,7 +2,7 @@
 
 `RESOURCES.md` lives at the repository root. It is the curated source list for 3D2Y teaching material.
 
-Use it to keep island lessons grounded in trusted knowledge instead of guesses.
+Use it to keep island lessons grounded in trusted knowledge instead of guesses. Prefer official, versioned Godot documentation that matches an island's `godot_version`.
 
 ## Template
 

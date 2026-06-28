@@ -18,6 +18,8 @@ Each teaching file should follow this loop:
 3. Give one quick check.
 4. Send the learner back to the island.
 
+Teaching files should include a `Sources` section. Prefer official Godot documentation matching the island's `godot_version`.
+
 ## File Location
 
 ```txt
@@ -30,6 +32,7 @@ islands/<slug>/teach/*.html
 - Stay short enough to revisit.
 - Use concrete Godot examples.
 - Include a tiny practice prompt.
+- Link to the sources used.
 - Avoid solving the whole island for the learner.
 
 ## Suggested Types

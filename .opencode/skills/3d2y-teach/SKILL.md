@@ -61,6 +61,7 @@ Use this frontmatter only:
 title: "Island Title"
 slug: "island-slug"
 difficulty: "beginner"
+godot_version: "4.7"
 skills:
   - one practical skill
 requires: []
@@ -81,6 +82,7 @@ Rules:
 
 - Keep the mission small enough to finish.
 - Make requirements observable and testable.
+- Set `godot_version` to the exact Godot version the island targets.
 - Do not add a per-island share section. Sharing is global to 3D2Y.
 - Do not number islands unless the user explicitly asks. Use slugs and `requires` for loose structure.
 - Do not solve the entire island inside `island.md`.
@@ -101,6 +103,7 @@ A good teaching file:
 - Is self-contained HTML.
 - Is short enough to revisit.
 - Uses concrete Godot examples.
+- Links to high-quality sources, especially official docs for the island's `godot_version`.
 - Gives the learner one tiny practice prompt or check.
 - Sends the learner back to the island.
 
@@ -135,7 +138,9 @@ Use `RESOURCES.md` to record high-quality references, including:
 - Game design references.
 - High-signal communities.
 
-If `RESOURCES.md` does not exist or lacks coverage for the topic, create or update it before writing claims that depend on external knowledge.
+Before writing teaching files, check `RESOURCES.md` for relevant sources. If it does not exist or lacks coverage for the topic, create or update it before writing claims that depend on external knowledge.
+
+Teaching HTML should include a `Sources` section with links used for the lesson.
 
 ## Learning Records
 
@@ -174,6 +179,7 @@ Good outputs include:
 - A focused `teach/*.html` support page.
 - A reference page that compresses recurring knowledge.
 - A curated resource entry with a useful annotation.
+- Versioned source links in teaching HTML.
 
 Avoid:
 
