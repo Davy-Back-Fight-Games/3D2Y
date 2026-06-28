@@ -4,6 +4,8 @@ Islands are small Godot mini-projects. Each one focuses on a practical skill and
 
 Pick any island that matches your current level. If an island lists `requires`, visit those islands first.
 
+Some islands also include a `teach/` folder with short HTML lessons or references for extra support.
+
 ## The Loop
 
 1. Read the mission.

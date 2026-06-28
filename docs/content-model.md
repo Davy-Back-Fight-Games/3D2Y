@@ -8,7 +8,10 @@ Each island lives here:
 
 ```txt
 islands/<slug>/island.md
+islands/<slug>/teach/*.html
 ```
+
+`island.md` is the mission. `teach/` contains supportive HTML lessons and references for learners who want guidance before, during, or after the build.
 
 ## Frontmatter
 
@@ -47,3 +50,20 @@ Each island should use these sections:
 ## Global Sharing Rule
 
 Sharing is part of the overall 3D2Y loop, so individual islands do not need their own share section.
+
+## Teaching Files
+
+Teaching files live inside each island:
+
+```txt
+islands/<slug>/teach/
+```
+
+Use teaching files for focused support material, not full walkthroughs. A good teaching file should explain one concept, give one tiny example, and help the learner return to the island.
+
+Recommended names:
+
+- `index.html`: Start here for the island's support material.
+- `<concept>.html`: A focused lesson or reference.
+
+Teaching files should be self-contained HTML so they can be opened directly in a browser and later rendered by a platform.
