@@ -16,6 +16,10 @@ Each challenge is a mini-project focused on one practical skill, from moving a c
 4. Learn from feedback.
 5. Move to the next island.
 
+## Start Here
+
+Begin with the islands in [`islands/`](./islands/). Each island is a small Godot mini-project with a mission, requirements, and a reflection prompt.
+
 ## Goals
 
 - Learn Godot through finished mini-projects.
