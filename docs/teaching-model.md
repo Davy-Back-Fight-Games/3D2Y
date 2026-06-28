@@ -4,7 +4,10 @@
 
 The goal is not to write long tutorials. The goal is to give learners just enough knowledge to keep building.
 
-Agent-facing instructions live in `.claude/skills/3d2y-teach/SKILL.md`.
+Agent-facing instructions live in:
+
+- `.opencode/skills/3d2y-teach/SKILL.md` for OpenCode.
+- `.claude/skills/3d2y-teach/SKILL.md` for Claude-compatible agents.
 
 ## Teaching Loop
 
