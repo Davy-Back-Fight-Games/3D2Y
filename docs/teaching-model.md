@@ -4,6 +4,8 @@
 
 The goal is not to write long tutorials. The goal is to give learners just enough knowledge to keep building.
 
+Agent-facing instructions live in `.claude/skills/3d2y-teach/SKILL.md`.
+
 ## Teaching Loop
 
 Each teaching file should follow this loop:
